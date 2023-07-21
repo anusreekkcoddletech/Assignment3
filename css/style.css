@@ -23,7 +23,8 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 0% 7%;    }
+      padding: 0% 7%;  
+    }
     .topnav {
       display: flex;
       align-items: center;
@@ -88,6 +89,7 @@
       position: absolute;
       bottom: 180px;
       left: 100px;
+      cursor: pointer;
     }
     .second-div{
       text-align: center;
@@ -128,6 +130,7 @@
     width: 140px;
     height: 50px;
     border: none;
+    cursor: pointer;
   }
   .fourth-div{
     display: flex;
@@ -139,12 +142,6 @@
     width:50%;
     height: 45%;
     padding: 2% 10% 2% 3%;
-  }
-  .button3{
-    background-color: #c99b7a;
-    width: 140px;
-    height: 50px;
-    border: none;
   }
   .button-class{
     display: flex;
@@ -163,10 +160,11 @@
     font-size:larger ;
     font-family: 'Poppins', sans-serif;
     padding: 5%;
-    color: #bac2ab;
+    color: #ebdece;
 
   }.sixth-div h3{
-    font-family: 'Satisfy', cursive;
+    font-family: 'Lily Script One', cursive;
+    font-size: 25px;
   }
   .seventh-div{
     display: flex;
