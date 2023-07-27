@@ -142,8 +142,15 @@
           align-items: center;
         }
         .working_process{
-          font-size: large;
-          padding: 2%;
+          font-size: 18px;
+          padding: 5%;
+        }
+        .working_process h4{
+          margin-top: 0.5rem;
+          margin-bottom: -0.9rem;
+        }
+        .working_process h2{
+          margin: 0;
         }
         .news_report{
           background-color: #4c5d39;
