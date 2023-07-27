@@ -104,9 +104,13 @@
           text-align: center;
           margin: auto;
         }
+        .motive_quote1 img{
+          width: 280px;
+          height: auto;
+        }
         .specialities{
           display: flex;
-          gap: 3%;
+          gap: 5%;
           padding: 3%;
           text-align: center;
           justify-content: center;
