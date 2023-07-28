@@ -5,7 +5,6 @@ body {
   padding: 0; 
   margin: 0;
   font-family: 'Roboto', sans-serif;
-  line-height: 1.5;
 }
 .quote {
   background-color: #4c5d39;
@@ -19,13 +18,14 @@ body {
   padding: 10px;
   margin: 0;
 }
-.header {
+header {
   background-color: #fffaf6;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0% 7%;  
+  padding: 0 5%;
+  display: flex;
 }
 .topnav {
   display: flex;
@@ -49,7 +49,7 @@ body {
 .heading {
   font-size: 25px;
 }
-span {
+.bold_heading {
   color: black;
 }
 .icons{
@@ -76,10 +76,10 @@ span {
   background-size: cover;
   background-position: center center;
   width: 100%; 
-  height: 90vh;
 }
 .cover_pic{
   display: flex;
+  position: relative;
 }
 .image-text {
   position: absolute;
@@ -89,7 +89,7 @@ span {
   font-size: 45px; 
   padding: 5px 10px; 
 }
-.button1{
+.purchase_button1{
   background-color: #e6ddce;
   width: 170px;
   height: 60px;
@@ -110,9 +110,15 @@ span {
 .Motive_quote{
   text-align: center;
 }
+.Motive_quote p{
+  line-height: 1.5;
+}
 .motive_quote1 img{
   width: 280px;
   height: auto;
+}
+.motive_quote1 p{
+  line-height: 1.5;
 }
 .specialities{
   display: flex;
@@ -122,9 +128,9 @@ span {
   justify-content: center;
 }
 .specialities h4{
-  font-size: large;
+  font-size: 20px;
 }
-.button2{
+.purchase_button2{
 background-color: #c99b7a;
 width: 170px;
 height: 60px;
@@ -139,9 +145,9 @@ font-size: 17px;
   width: 100%;
 }
 .working img{
-  width:50%;
+  width:45%;
   height: 45%;
-  padding: 2% 10% 2% 3%;
+  padding: 4% 2%;
 }
 .button-class{
   display: flex;
@@ -160,11 +166,15 @@ font-size: 17px;
   margin-top: 0;
   margin-bottom: 25px;
 }
+.working_process p{
+  font-size:17px ;
+  line-height: 1.5;
+}
 .news_report{
   background-color: #4c5d39;
   text-align: center;
   justify-content: center;
-  font-size:larger ;
+  font-size:20px ;
   padding: 5%;
   color: #ebdece;
 }
@@ -185,10 +195,17 @@ font-size: 17px;
 .conclusion_motive{
   flex-direction: column;
   padding: 5%;
-  font-size: large;
+  font-size: 17px;
+}
+.conclusion_motive p{
+  line-height: 1.5;
 }
 .bottom{
   background-color: #eaded0;
   width: 100%;
   padding: 1%;  
+}
+.container{
+  max-width: 1200px;
+  margin: auto;
 }
