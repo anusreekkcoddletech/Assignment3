@@ -6,6 +6,10 @@ body {
   margin: 0;
   font-family: 'Roboto', sans-serif;
 }
+.container{
+  max-width: 1200px;
+  margin:auto;
+}
 .quote {
   background-color: #4c5d39;
   width: 100%;
@@ -21,11 +25,11 @@ body {
 header {
   background-color: #fffaf6;
   width: 100%;
+}
+.row-flexibility{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 5%;
-  display: flex;
 }
 .topnav {
   display: flex;
@@ -83,7 +87,7 @@ header {
 }
 .image-text {
   position: absolute;
-  bottom: 280px;
+  bottom: 300px;
   left: 90px;
   color: black;
   font-size: 45px; 
@@ -144,6 +148,9 @@ font-size: 17px;
   background-color: #ebdece;
   width: 100%;
 }
+.row-container{
+  display: flex;
+}
 .working img{
   width:45%;
   height: 45%;
@@ -156,7 +163,8 @@ font-size: 17px;
 }
 .working_process{
   font-size: 18px;
-  padding: 5%;
+  padding-top: 5%;
+  padding-left: 15%;
 }
 .working_process h4{
   margin-top: 0.5rem;
@@ -190,11 +198,11 @@ font-size: 17px;
 .conclusion img{
   width:45%;
   height: 45%;
-  padding-left: 7%;
+  padding-left: 5%;
 }
 .conclusion_motive{
-  flex-direction: column;
-  padding: 5%;
+  padding-top: 8%;
+  padding-right: 12%;
   font-size: 17px;
 }
 .conclusion_motive p{
@@ -205,7 +213,4 @@ footer{
   width: 100%;
   padding: 1%;  
 }
-.container{
-  max-width: 1200px;
-  margin: auto;
-}
+
