@@ -95,11 +95,11 @@ header {
 }
 .purchase_button1{
   background-color: #e6ddce;
-  width: 170px;
-  height: 60px;
+  width: 140px;
+  height: 50px;
   border: none;
   position: absolute;
-  bottom: 200px;
+  bottom: 220px;
   left: 100px;
   cursor: pointer;
   font-size: 17px;
@@ -136,25 +136,28 @@ header {
 }
 .purchase_button2{
 background-color: #c99b7a;
-width: 170px;
-height: 60px;
+width: 140px;
+height: 50px;
 border: none;
 cursor: pointer;
 font-size: 17px;
 }
 .working{
-  display: flex;
-  padding: 5%;
+  padding: 7%;
   background-color: #ebdece;
   width: 100%;
 }
 .row-container{
   display: flex;
+  flex: 1;
+}
+.wrapper {
+  max-width: 50%; 
+  padding-right: 10%; 
 }
 .working img{
-  width:45%;
-  height: 45%;
-  padding: 4% 2%;
+  object-fit: cover;
+  width:100%;
 }
 .button-class{
   display: flex;
@@ -162,9 +165,9 @@ font-size: 17px;
   align-items: center;
 }
 .working_process{
+  padding-top: 2%;
+  padding-left: 5%;
   font-size: 18px;
-  padding-top: 5%;
-  padding-left: 15%;
 }
 .working_process h4{
   margin-top: 0.5rem;
@@ -180,11 +183,12 @@ font-size: 17px;
 }
 .news_report{
   background-color: #4c5d39;
-  text-align: center;
-  justify-content: center;
-  font-size:20px ;
   padding: 5%;
+}
+.news{
   color: #ebdece;
+  font-size:20px ;
+  text-align: center;
 }
 .news_report h3{
   font-family: 'Lily Script One', cursive;
@@ -196,17 +200,19 @@ font-size: 17px;
   background-color: #fffaf4;
 }
 .conclusion img{
-  width:45%;
-  height: 45%;
-  padding-left: 5%;
+  width:100%;
 }
 .conclusion_motive{
-  padding-top: 8%;
-  padding-right: 12%;
+  padding-top: 5%;
   font-size: 17px;
+  padding-right: 10%;
 }
 .conclusion_motive p{
   line-height: 1.5;
+}
+.conclusion_image{
+  width: 50%;
+  padding-left: 7%;
 }
 footer{
   background-color: #eaded0;
