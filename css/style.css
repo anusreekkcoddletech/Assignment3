@@ -104,14 +104,12 @@ header {
   cursor: pointer;
   font-size: 17px;
 }
-.motive{
+.Motive_quote{
   background-color: #fffaf4;
   width: 100%;
   padding-top: 45px;
   padding-bottom: 85px;
   margin: 0;
-}
-.Motive_quote{
   text-align: center;
 }
 .Motive_quote p{
@@ -203,7 +201,7 @@ font-size: 17px;
   width:100%;
 }
 .conclusion_motive{
-  padding-top: 5%;
+  padding-top: 7%;
   font-size: 17px;
   padding-right: 10%;
 }
